@@ -1,0 +1,11 @@
+{% load mezzanine_tags %}
+
+
+{% for current_section in right_panel_sections %}
+    <div class="widget">
+        <h4>{% editable current_section.title %}{% endeditable %}</h4>
+        {% editable current_section.content %}
+            <p>{{ current_section.content|richtext_filters|safe }}</p>
+        {% endeditable %}
+    </div>
+{% endfor %}
