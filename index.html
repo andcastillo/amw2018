@@ -179,6 +179,56 @@
 					</div>
 				</section>
 -->
+<section>
+				<hr />		
+				<div class="container" style="height: auto; display: inline-block; padding-top: 50px; padding-bottom: 50px; margin: 0px 20px">
+				
+					<div class="12u(small)" style="height: auto; display: inline-block">	
+						<h3>Organized by:</h3>
+					</div>
+					<div class="12u" style="height: auto; display: inline-block">
+						<div class="-2u 2u -1u(small) 10u(small) sponsors-container" style="float: left">
+							<a href="http://eisc.univalle.edu.co/">	
+								<span class="sponsor-logo"><img src="images/logos/univalle.gif" width="70%"></span>
+							</a>
+						</div>
+						<div class="-1u 2u -1u(small) 10u(small) sponsors-container" style="float: left">
+							<a href="https://www.javerianacali.edu.co/programas/ingenieria-de-sistemas-y-computacion">	
+								<span class="sponsor-logo"><img src="images/logos/javeriana.png" width="100%"/></span>
+							</a>	
+						</div>		
+					</div>
+					<style>
+						@media (max-width: 739px) {
+							.sponsors-container {
+						    	min-height: 200px;
+							}
+						}
+						@media (min-width: 740px) {
+							.sponsors-container {
+						    	height: 180px;
+							}
+						}
+						.sponsors-container {
+						    text-align: center;  /* align the inline(-block) elements horizontally */
+						    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+						    padding: 20px 0px;
+						}
+
+						.sponsors-container:before {    /* create a full-height inline block pseudo=element */
+						    content: ' ';
+						    display: inline-block;
+						    vertical-align: middle;  /* vertical alignment of the inline element */
+						    height: 100%;
+						}
+
+						.sponsor-logo {
+						    display: inline-block;
+						    vertical-align: middle;  /* vertical alignment of the inline element */
+						}
+					</style>
+				</div>
+			</section>
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
